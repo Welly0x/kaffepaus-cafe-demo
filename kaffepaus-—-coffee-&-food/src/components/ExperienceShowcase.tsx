@@ -18,7 +18,7 @@ export const ExperienceShowcase: React.FC<ExperienceShowcaseProps> = ({
       index: 1, // halloumi-toast
       title: 'Halloumi Sourdough Bloomer',
       subtitle: 'Artisanal Toast',
-      image: 'src/assets/images/Halloumi_cheese_sandwich_on_plate_20261017192838.jpg',
+      image: new URL('../assets/images/Halloumi_cheese_sandwich_on_plate_20261017192838.jpg', import.meta.url).href,
       span: 'md:col-span-8 lg:col-span-8',
       aspect: 'aspect-[4/3]',
       tag: 'Fresh Breakfast',
@@ -27,7 +27,7 @@ export const ExperienceShowcase: React.FC<ExperienceShowcaseProps> = ({
       index: 9, // orange-cooler
       title: 'Tropical Fruit Cooler',
       subtitle: 'Sparkling Infusion',
-      image: 'src/assets/images/Orange_cocktail_on_stone_surface_20261017230027.jpg',
+      image: new URL('../assets/images/Orange_cocktail_on_stone_surface_20261017230027.jpg', import.meta.url).href,
       span: 'md:col-span-4 lg:col-span-4',
       aspect: 'aspect-[3/4]',
       tag: 'Signature Cooler',
@@ -36,7 +36,7 @@ export const ExperienceShowcase: React.FC<ExperienceShowcaseProps> = ({
       index: 6, // smoothie-bowl
       title: 'Organic Açai Smoothie Bowl',
       subtitle: 'Pumpkin Seed Granola',
-      image: 'src/assets/images/Smoothie_bowl_on_café_table_20261017192748.jpg',
+      image: new URL('../assets/images/Smoothie_bowl_on_café_table_20261017192748.jpg', import.meta.url).href,
       span: 'md:col-span-4 lg:col-span-4',
       aspect: 'aspect-4/3',
       tag: 'All-Day Energy',
@@ -45,7 +45,7 @@ export const ExperienceShowcase: React.FC<ExperienceShowcaseProps> = ({
       index: 8, // fusilli-pesto
       title: 'Genovese Fusilli with Chicken Panko',
       subtitle: 'De Cecco Pasta',
-      image: 'src/assets/images/Pasta_with_chicken_and_cheese_20261017200237.jpg',
+      image: new URL('../assets/images/Pasta_with_chicken_and_cheese_20261017200237.jpg', import.meta.url).href,
       span: 'md:col-span-4 lg:col-span-4',
       aspect: 'aspect-4/3',
       tag: 'Chef Special',
@@ -54,7 +54,7 @@ export const ExperienceShowcase: React.FC<ExperienceShowcaseProps> = ({
       index: 4, // chocolate-crepe
       title: 'Chocolate Strawberry Crêpe',
       subtitle: 'Nutella & Berries',
-      image: 'src/assets/images/Crepe_with_chocolate_and_bananas_20261017011454.jpg',
+      image: new URL('../assets/images/Crepe_with_chocolate_and_bananas_20261017011454.jpg', import.meta.url).href,
       span: 'md:col-span-4 lg:col-span-4',
       aspect: 'aspect-4/3',
       tag: 'Sweet Moments',
