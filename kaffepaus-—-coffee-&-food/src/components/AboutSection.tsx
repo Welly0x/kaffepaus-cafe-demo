@@ -110,7 +110,7 @@ export const AboutSection: React.FC = () => {
             <div className="rounded-3xl p-3 sm:p-4 bg-[#F7F3EA] border border-[#173A2F]/10 shadow-md">
               <div className="aspect-4/3 rounded-2xl overflow-hidden bg-[#D8D0C3] relative">
                 <img
-                  src="src/assets/images/Shakshuka_with_bread_served_20261017194717.jpg"
+                  src={new URL('../assets/images/Shakshuka_with_bread_served_20261017194717.jpg', import.meta.url).href}
                   alt="Mediterranean shakshuka skillet with gently poached eggs, crumbled feta cheese, and toasted sourdough at KAFFEPAUS"
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                   loading="lazy"
