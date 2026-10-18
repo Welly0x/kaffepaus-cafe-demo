@@ -102,7 +102,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu, onFindUs }) => {
             <div className="relative rounded-3xl p-3 sm:p-4 bg-[#EAE4D8]/70 border border-[#173A2F]/10 shadow-lg">
               <div className="relative aspect-4/3 sm:aspect-4/3 rounded-2xl overflow-hidden bg-[#D8D0C3]">
                 <img
-                  src="src/assets/images/Café_table_with_food_and_2K_20261017224724.jpg"
+                  src={new URL('../assets/images/Café_table_with_food_and_2K_20261017224724.jpg', import.meta.url).href}
                   alt="Hot milk-based coffee with latte art in dark green ceramic cup on rustic wooden table at KAFFEPAUS"
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                   loading="eager"
