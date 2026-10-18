@@ -30,7 +30,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: kaffepaus-—-coffee-&-food
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Build site
         working-directory: kaffepaus-—-coffee-&-food
