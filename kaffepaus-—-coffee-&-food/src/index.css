@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --forest-green: #173A2F;
+    --deep-forest: #13261F;
+    --muted-sage: #8B9E87;
+    --pale-olive: #5A6F54;
+    --warm-ivory: #F7F3EA;
+    --cream: #EAE4D8;
+    --natural-stone: #D8D0C3;
+    --dark-charcoal: #292A25;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #292A25;
+    background-color: #F7F3EA;
+  }
+}
+
+.font-serif {
+  font-family: 'Cormorant Garamond', Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Subtle botanical line-pattern background */
+.bg-botanical-pattern {
+  background-image: radial-gradient(rgba(32, 61, 50, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Custom scrollbar for menu & lightbox */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F4EC;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8D0C3;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A7B4A0;
+}
+

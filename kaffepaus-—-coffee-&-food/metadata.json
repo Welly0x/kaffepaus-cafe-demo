@@ -1,0 +1,6 @@
+{
+  "name": "KAFFEPAUS — Coffee & Food",
+  "description": "Official website for KAFFEPAUS — Coffee and Food in Jumeirah Village Triangle, Dubai. Specialty coffee, artisanal breakfast, sourdoughs, crepes, and unhurried café moments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
